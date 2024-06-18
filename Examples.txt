@@ -1,0 +1,17 @@
+PS C:\Users\chris\621Project1> go install C:\Users\chris\621Project1
+PS C:\Users\chris\621Project1> 621Project1 "C:\Users\chris\621Project1\datafile3.dat" 2
+2024/02/29 18:14:45 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=0 Length=65536 "Prime Count"=203
+2024/02/29 18:14:45 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=65536 Length=65536 "Prime Count"=207
+2024/02/29 18:14:46 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=131072 Length=130048 "Prime Count"=390
+Main took 1.4555464s
+The final count of prime numbers is 800
+PS C:\Users\chris\621Project1> 621Project1 "C:\Users\chris\621Project1\datafile2.dat"
+2024/02/29 18:15:03 INFO Worker data Path=C:\Users\chris\621Project1\datafile2.dat Start=0 Length=65536 "Prime Count"=199
+Main took 877.7465ms
+The final count of prime numbers is 199
+PS C:\Users\chris\621Project1> 621Project1 "C:\Users\chris\621Project1\datafile3.dat" 2 65536 1024
+2024/02/29 18:35:45 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=0 Length=65536 "Prime Count"=203
+2024/02/29 18:35:45 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=65536 Length=65536 "Prime Count"=207
+2024/02/29 18:35:45 INFO Worker data Path=C:\Users\chris\621Project1\datafile3.dat Start=131072 Length=130048 "Prime Count"=390
+Main took 1.7510546s
+The final count of prime numbers is 800
